@@ -1,0 +1,171 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
+}
+.container{
+    width: 1014px;
+    margin: 0 auto;
+}
+header img{
+    margin-top: 3rem;
+    width: 200px;
+}
+.container__miniostopo h2{ 
+    margin-top: 7rem;
+    color: #FFCB08;
+    font-weight: 900;
+    font-size: 13rem;
+}
+.container__miniostopo img{
+    position: relative;
+    bottom: 9rem;
+}
+main {
+    max-width: 1200px;
+    box-shadow: aliceblue;
+    box-shadow: 15px 15px 15px 15px #cfcfcf;
+    margin: 0 auto;
+}
+.container__minions{
+    height: auto;
+    width: 100%;
+    background: linear-gradient(-4deg, #FFCB08, #FFCB08 60%, white 60%, white);
+    
+}
+.diagonal-box p {
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 1rem;
+    font-weight: 500;
+    line-height: 25px;
+}
+.container__stuart{
+    padding-top: 8rem;
+    display: flex;
+}
+.container__description h2{
+    color: #FFF;
+    font-size: 7rem;
+}
+.container__description h3{
+    color: #f7930f;
+    font-size: 2.4rem;
+    margin-right: 19rem;
+}
+.container__description p{
+    margin: auto;
+    width:95%;
+}
+
+.diagonal-box {
+	background-image: linear-gradient(45deg, #f7930f, rgb(255, 217, 0));
+	transform: skewY(-6deg);
+}
+
+.content {
+	max-width: 50em;
+	margin: 0 auto;
+	transform: skewY(6deg);
+}
+
+.circulo {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: #fff;
+    position: relative;
+
+}
+
+.triangulo {
+    position: relative;
+    width: 0;
+    height: 0;
+    border-top: 24px solid transparent;
+    border-left: 41px solid #ffffff;
+    border-bottom: 18px solid transparent;
+    margin: 0 auto;
+    top: 17px;
+    left: 3px;
+}
+
+.borda__circulo {
+    position: relative;
+    margin: 0 auto;
+    width: 84px;
+    height: 81px;
+    border-radius: 50%;
+    background-color: #f7930f;
+    top: 10px;
+    box-shadow: 0px 0px 12px #ff9100;
+}
+.container__interview {
+    display: flex;
+    margin-top: 2rem;
+}
+.container__h5 {
+    color: rgb(65, 65, 65);
+    margin: 0 auto;
+    display: flex;
+    font-size: 1.7rem;
+    margin-top: 2rem;
+}
+.diagonal-box_kevin{
+    background-image: linear-gradient(45deg, #ffffff, rgb(255, 255, 255));
+	transform: skewY(-6deg);
+}
+.content_kevin{
+    max-width: 50em;
+	margin: 0 auto;
+	transform: skewY(6deg);
+}
+.container__kevin{
+    margin-top: 5rem;
+    padding-top: 8rem;
+    display: flex;
+}
+.container__description_kevin h2{
+    color: rgb(54, 54, 54);
+    font-size: 7rem;
+}
+.container__description_kevin h3{
+    color: #f7930f;
+    font-size: 2.4rem;
+    margin-right: 13rem;
+}
+.container__description_kevin p{
+    margin: auto;
+    width:95%;
+}
+.diagonal-box_bob{
+    background-image: linear-gradient(45deg, #f7930f, rgb(255, 217, 0));
+	transform: skewY(-6deg);
+}
+.content_bob{
+    max-width: 50em;
+	margin: 0 auto;
+	transform: skewY(6deg);
+}
+.container__bob{
+    margin-top: 5rem;
+    padding-top: 8rem;
+    display: flex;
+}
+.container__description_bob h2{
+    color: rgb(54, 54, 54);
+    font-size: 7rem;
+}
+.container__description_bob h3{
+    color: #f7930f;
+    font-size: 2.4rem;
+    margin-right: 13rem;
+}
+.container__description_bob p{
+    margin: auto;
+    width:95%;
+}
